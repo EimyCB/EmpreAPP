@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+.header_img {
+  width: 100vw;
+}
+
 h2 {
   font-size: 2.5rem;
   color: #3399ff;
@@ -15,6 +19,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   color: #3e3e3e;
+  text-align: center;
 }
 
 footer {
