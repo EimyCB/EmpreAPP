@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600&family=Roboto&display=swap');
+
+$types: ('regular':400,'medium':500,'semi-bold':600);
+
+h2 {
+    font-size: 20px;
+    color: #3399ff;
+    text-align: center;
+  }
+h3 {
+    font-size: 12px;
+    color: #3e3e3e;
+    text-align: center;
+}
+
+@each $type, $weight in $types{
+    .font-#{$type}{
+        font-weight: $weight;
+    }
+}

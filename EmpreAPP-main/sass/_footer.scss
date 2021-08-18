@@ -1,0 +1,19 @@
+footer {
+	padding: 1.5em;
+	background-color: #5c2aff2a;
+	width: 100vw;
+	.row {
+		.col-3 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+	a {
+		text-align: center;
+		.social-icon {
+			width: 16px;
+			height: 16px;
+		}
+	}
+}
