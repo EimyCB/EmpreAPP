@@ -3,6 +3,12 @@
     font-family: 'Palanquin Dark';
     display: flex;
     flex-direction: row;
+    .nav-link{
+        color: #3E3E3E !important;
+    }
+    .active{
+        color: #5C2AFF !important;
+    }
     span{
         margin: auto 6px;
     }
