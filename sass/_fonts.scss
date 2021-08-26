@@ -13,6 +13,34 @@ h3 {
     text-align: center;
 }
 
+p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    strong{
+        color: #3399ff;
+    }
+}
+
+.font-14{
+    font-size: 14px;
+}
+.subtitle{
+    margin: 1.5rem 1rem 1rem 1rem;
+    color: #5C2AFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
 @each $type, $weight in $types{
     .font-#{$type}{
         font-weight: $weight;

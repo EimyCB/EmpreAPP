@@ -1,4 +1,4 @@
-$carousel-control-color: $black;
+$carousel-control-color: black;
 
 .carousel {
   width: 100%;
@@ -6,7 +6,7 @@ $carousel-control-color: $black;
 .card-home {
   margin: 12px auto;
   width: 280px;
-  min-height: 184px;
+  height: 184px;
   display: flex;
   background: rgba(76, 121, 239, 0.1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -40,5 +40,24 @@ $carousel-control-color: $black;
       object-fit: cover;
       width: 100%;
     }
+  }
+}
+
+
+.block{
+  padding: 8px;
+  width: 70%;
+  background: rgba(51, 153, 255, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 8px 0;
+  p{
+    margin: 0;
+    text-align: center;
+  }
+  &.left{
+    margin-right: auto;
+  }
+  &.right{
+    margin-left: auto;
   }
 }
