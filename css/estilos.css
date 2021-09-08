@@ -399,8 +399,8 @@ i {
   border-radius: 15px;
   border-color: black;
   color: #3E3E3E;
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
   margin-left: auto;
   padding: 2rem;
   transform: rotate(10deg);
@@ -411,6 +411,15 @@ i {
 .gif {
   width: auto;
   max-height: 400px;
+}
+
+.btn-icon {
+  width: 1.5rem;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
 }
 
 .steps {
@@ -441,8 +450,8 @@ i {
   }
 
   .box {
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 15em;
   }
 
   .empre_img {
