@@ -39,7 +39,7 @@
         <h2>No dudes en escribirnos</h2>
     <h3>Deja tu mensaje y pronto te responderemos!</h3></div>
     <div class="container">
-    <form class="form" action="">
+    <form class="form" action="./php/form.php" enctype = "multipart/form-data">
         <div>
             <input type="text" name="name" required>
         <label for="name">Nombre</label>
@@ -50,9 +50,9 @@
         </div>
         <table class="table table-borderless">
             <tr class="d-flex justify-content-center">
-                <th scope="col"><button class=" btn btn-2 btn-primary" type="button"><i class="fas fa-folder-plus"></i></button></th>
+                <th scope="col"><input class=" btn btn-2 btn-primary" type="file" name="image"><i class="fas fa-folder-plus"></i></input></th>
                 <th scope="col"><textarea type="text" name="message" placeholder="Escribe un mensaje" required></textarea></th>
-                <th scope="col"><button class="btn btn-2 btn-primary" type="button"><i class="fas fa-paper-plane"></i></button></th>
+                <th scope="col"><input class="btn btn-2 btn-primary" type="submit"><i class="fas fa-paper-plane"></i></input></th>
               </tr> 
         </table>
     </form>
