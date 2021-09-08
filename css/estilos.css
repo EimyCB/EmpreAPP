@@ -428,4 +428,14 @@ i {
   .empre_container {
     width: 50%;
   }
+
+  .empre_inicio {
+    font-size: xx-large;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
