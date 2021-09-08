@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
 		window.location = 'https://apps.apple.com/ar/app/empre-app-emprendedores-cerca/id1566962202?l=en' //URL del APP Store
 	} else {
 		if (device.match(/Android/i)) {
-			window.location = 'https://play.google.com/store/apps/details?id=com.app_r3777.layoutB' //URL del Play Store
+            window.location = 'https://play.google.com/store/apps/details?id=com.app_r3777.layout' //URL del Play Store
 		} else {
 			window.location = 'https://login.aplicacionespymes.com/m/r3777/?appcode=r3777' //En el caso que el cliente este visitando desde un computador, lo enviamos a la web.
 		}
