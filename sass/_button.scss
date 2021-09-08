@@ -1,6 +1,15 @@
 .btn{
-    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+    display: flex;
+     padding: 1.5rem;
+     align-items: center;
+     justify-content: center;
 }
 .btn-primary{
+    border-color: #5C2AFF;
     background-color: #5C2AFF;
+}
+
+i {
+    margin: 0;
+    padding: 0;
 }

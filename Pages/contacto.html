@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/b47b3084cb.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/bootstrap.min.css" />
         <link rel="stylesheet" href="../css/estilos.css" />
         <title>EmpreApp - Contacto</title>
@@ -33,10 +34,11 @@
         </div>
     </nav>
     <!-- Form contact -->
-    <div class="container-fluid justify-content-center  my-2">
+    <div class="container-fluid justify-content-center">
         <img class="img-fluid " src="../img/Ilustraciones/Dayflow Torso.png" alt="">
         <h2>No dudes en escribirnos</h2>
-    <h3>Deja tu mensaje y pronto te responderemos!</h3>
+    <h3>Deja tu mensaje y pronto te responderemos!</h3></div>
+    <div class="container">
     <form class="form" action="">
         <div>
             <input type="text" name="name" required>
@@ -46,11 +48,13 @@
             <input type="text" name="email" required>
         <label for="email">Correo electrónico</label>
         </div>
-        <div>
-            <button class="btn btn-primary"></button>
-            <textarea type="text" name="message" placeholder="Escribe un mensaje" required></textarea>
-            <button class="btn btn-primary"></button>
-        </div>
+        <table class="table table-borderless">
+            <tr>
+                <th scope="col"><button class="btn btn-primary" type="button"><i class="fas fa-folder-plus"></i></button></th>
+                <th scope="col"><textarea type="text" name="message" placeholder="Escribe un mensaje" required></textarea></th>
+                <th scope="col"><button class="btn btn-primary" type="button"><i class="fas fa-paper-plane"></i></button></th>
+              </tr> 
+        </table>
     </form>
     </div>
     <!-- Footer -->
