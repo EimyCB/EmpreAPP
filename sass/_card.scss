@@ -53,7 +53,7 @@ $carousel-control-color: black;
   p{
     margin: 0;
     text-align: center;
-    padding: 2.5rem;
+    padding: .5rem;
   }
   &.left{
     margin-right: auto;
@@ -89,5 +89,10 @@ ul li {
   .card-home{
     width: 600px;
     height: 350px;
+  }
+  .block{
+    p{
+      padding: 2.5rem;
+    }
   }
 }
