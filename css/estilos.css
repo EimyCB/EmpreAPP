@@ -436,7 +436,7 @@ i {
 
 @media screen and (min-width: 1000px) {
   .subtitle {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 40px;
   }
 
@@ -454,12 +454,16 @@ i {
   }
 
   .empre_inicio {
-    font-size: xx-large;
+    font-size: x-large;
     line-height: 40px;
   }
 
   p {
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .container {
+    margin-bottom: 3rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
