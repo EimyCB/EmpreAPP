@@ -327,6 +327,10 @@ tbody tr {
     font-size: 14px;
   }
 }
+ul li {
+  font-size: 14px;
+}
+
 @media screen and (min-width: 1200px) {
   .card-home {
     width: 600px;
