@@ -47,11 +47,20 @@ button a {
     background-size: contain;
 }
 
+
 @media screen and (min-width: 1000px){
     .subtitle {
     font-size:40px;
     line-height: 40px;
     }
+
+    .subtitle-eventos {
+        font-size:30px;
+        line-height: 30px;
+        margin: 1.5rem 1rem 1rem 1rem;
+        color: #5C2AFF;
+        text-align: center;
+        }
     .box {
         width: 15em;
         height: 15em;
