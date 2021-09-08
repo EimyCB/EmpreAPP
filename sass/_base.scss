@@ -5,19 +5,35 @@
 body {
   overflow-x: hidden;
   font-family: "Palanquin Dark";
+  min-height: 100%;
 }
 .header_img {
-  width: 100vw;
+  width: 100%;
+  display: none;
 }
-
+.mobile{
+  display: block;
+}
 .container_height {
   height: 100vh;
 }
 
-.empre_logo {
-  width: 25%;
-}
 
 .empre_p {
   text-align: center;
+  font-size: 18px;
+  height: 100%;
+  margin:auto;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .header_img{
+    max-height: 600px;
+    object-fit: contain;
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
 }

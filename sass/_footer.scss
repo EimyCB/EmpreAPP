@@ -11,9 +11,30 @@ footer {
 	}
 	a {
 		text-align: center;
+		margin: auto;
 		.social-icon {
 			width: 16px;
 			height: 16px;
+		}
+	}
+}
+@media screen and (min-width:768px) {
+	footer{
+		a{
+			.social-icon{
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+}
+@media screen and (min-width:1200px) {
+	footer{
+		a{
+			.social-icon{
+				width: 32px;
+				height: 32px;
+			}
 		}
 	}
 }

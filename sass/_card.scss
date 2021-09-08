@@ -61,3 +61,28 @@ $carousel-control-color: black;
     margin-left: auto;
   }
 }
+
+@media screen and (min-width:576px) {
+  .card-home{
+    width: 360px;
+    height: 224px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-home{
+    height: 294px;
+    width: 480px;
+    .card-home-body{
+      h3{
+        font-size: 22px;
+      }
+      p{font-size: 14px;}
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card-home{
+    width: 600px;
+    height: 350px;
+  }
+}
