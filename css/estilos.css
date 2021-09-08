@@ -358,6 +358,22 @@ i {
   height: 240px;
 }
 
+.carousel-control-prev {
+  color: black !important;
+}
+
+.carousel-control-prev-icon {
+  color: black !important;
+}
+
+.carousel-control-next {
+  color: black !important;
+}
+
+.carousel-control-next-icon {
+  color: black !important;
+}
+
 .carousel-indicators [data-bs-target] {
   height: 8px;
   width: 8px;
