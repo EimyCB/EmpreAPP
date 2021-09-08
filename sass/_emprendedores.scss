@@ -1,13 +1,17 @@
 .box {
+    display: flex;
     background-color: white;
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
     color:#3E3E3E;
-    width: 14em;
+    width: 10em;
+    height: 10em;
     margin-left: auto;
-    padding: 20px;
+    padding: 2rem;
     transform: rotate(10deg);
+    align-items: center;
+    font-size: large;
 }
 
 .gif{
@@ -17,4 +21,32 @@
 
 .steps{
     height: auto;
+}
+
+.empre_container {
+   width:100%;
+}
+
+
+.empre_img {
+    height: 15rem;
+    width: auto;
+}
+
+@media screen and (min-width: 1000px){
+    .subtitle {
+    font-size:45px;
+    line-height: 40px;
+    }
+    .box {
+        width: 20em;
+        height: 20em;
+    }
+    .empre_img {
+        height: 30rem;
+    }
+
+    .empre_container {
+        width:50%;
+     }
 }
