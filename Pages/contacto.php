@@ -28,7 +28,7 @@
                 </li>
                 <span>|</span>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../Pages/contacto.html">Contacto</a>
+                    <a class="nav-link active" href="../Pages/contacto.php">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -39,24 +39,27 @@
         <h2>No dudes en escribirnos</h2>
     <h3>Deja tu mensaje y pronto te responderemos!</h3></div>
     <div class="container">
-    <form class="form" action="./php/form.php" enctype = "multipart/form-data">
+    <form class="form" method="POST" enctype = "multipart/form-data">
         <div>
             <input type="text" name="name" required>
         <label for="name">Nombre</label>
         </div>
         <div>
-            <input type="text" name="email" required>
+            <input type="email" name="email" required>
         <label for="email">Correo electrónico</label>
         </div>
         <table class="table table-borderless">
             <tr class="d-flex justify-content-center">
                 <th scope="col"><input class=" btn btn-2 btn-primary" type="file" name="image"><i class="fas fa-folder-plus"></i></input></th>
                 <th scope="col"><textarea type="text" name="message" placeholder="Escribe un mensaje" required></textarea></th>
-                <th scope="col"><input class="btn btn-2 btn-primary" type="submit"><i class="fas fa-paper-plane"></i></input></th>
+                <th scope="col"><input class="btn btn-2 btn-primary" type="submit" name="submit"><i class="fas fa-paper-plane"></i></input></th>
               </tr> 
         </table>
     </form>
     </div>
+    <?php
+    include('../php/form.php')
+    ?>
     <!-- Footer -->
     <footer>
         <div class="container">
